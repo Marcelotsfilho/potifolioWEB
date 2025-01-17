@@ -1,0 +1,129 @@
+:root{
+  background-color: black;
+}
+
+ .textHome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 39vw;
+  position: relative;
+  color: white;
+ }
+ .name{
+  padding-left: 8vw;
+  font-family: 'Michroma';
+  font-size:40px;
+  font-weight: regular;
+ }
+ .area{
+  font-family: 'Michroma';
+  font-size: 30px;
+  font-weight: regular;
+ }
+ .button{
+  gap: 60px;
+  padding-left: 8vw;
+  display: flex;
+ }
+ .social{
+  margin-top: 5vw;
+  width: 20vw;
+  margin-left: 8vw;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+ }
+ 
+ .abaut{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15vw;
+ }
+ .Image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+ }
+ .textAbaut{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+ }
+ .title{
+  font-family: 'Michroma';
+  font-weight: regular;
+  font-size: 25px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  color: white;
+ }
+ .paragraph{
+  font-family: 'Afacad';
+  font-weight: regular;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: justify;
+ }
+ .iconTecnologia{
+  display: flex;
+  justify-content: center;
+  padding-top: 5vw;
+  gap: 3vw;
+ }
+ .projects{
+  margin-top: 15vw;
+ }
+ .titleProjects{
+  font-family: 'Michroma';
+  font-weight: regular;
+  font-size: 25px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  color: white;
+ }
+ .abautProjects{
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: row;
+ }
+ .imgProject{
+  width: 50%;
+ }
+ .imgProject img{
+  width: 40vw;
+  margin-left: 7vw;
+  height: 19vw;
+  border-radius: 0.7vw;
+ }
+ .textProject{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 5vw;
+ }
+ .nameProject{
+  font-family: 'Afacad';
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  justify-content: start;
+  color: white;
+ }
+ .descriptionProject{
+  width: 40vw;
+  font-family: 'Afacad';
+  font-weight: regular;
+  font-size: 18px;
+  display: flex;
+  justify-content: start;
+  color: white;
+ }

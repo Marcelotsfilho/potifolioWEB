@@ -1,0 +1,30 @@
+body { 
+  font-family: 'Afacad';
+  margin: 0;
+  padding: 0;
+} 
+.content {
+  background-color: black; 
+  padding-left: 4vw;
+  padding-top: 15px;
+  height: 2.5vw;
+} 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex; 
+  justify-content: start;
+  gap: 60px;
+} 
+nav ul li {
+ margin: 0 15px; 
+} 
+nav ul li a { 
+  color: #fff; 
+  text-decoration: none; 
+  font-weight: regular;
+  font-size: 16px;
+} 
+nav ul li a:hover { 
+  text-decoration: underline; 
+}
