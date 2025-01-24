@@ -79,6 +79,7 @@
  }
  .projects{
   margin-top: 15vw;
+  margin-bottom: 10vw;
  }
  .titleProjects{
   font-family: 'Michroma';
@@ -126,4 +127,10 @@
   display: flex;
   justify-content: start;
   color: white;
+ }
+ .projectButton{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
  }

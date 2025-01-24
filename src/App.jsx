@@ -1,24 +1,25 @@
-import React from 'react'
-import './App.css'
-import Header from './components/base/Header'
-import Home from './components/base/Home'
-import Button from './components/base/Button'
-import github from './assets/github.png'
-import instagram from './assets/instagram.png'
-import linkedin from './assets/linkedin.png'
-import Img from './components/base/Img'
-import reactIcon from './assets/React.png'
-import typeScriptIcon from './assets/TS.png'
-import javaScriptIcon from './assets/JS.png'
-import siteAtletica from './assets/siteAtletica.png'
+import React from 'react';
+import './App.css';
+import Header from './components/base/Header';
+import Home from './components/base/Home';
+import Button from './components/base/Button';
+import github from './assets/github.png';
+import instagram from './assets/instagram.png';
+import linkedin from './assets/linkedin.png';
+import Img from './components/base/Img';
+import reactIcon from './assets/React.png';
+import typeScriptIcon from './assets/TS.png';
+import javaScriptIcon from './assets/JS.png';
+import siteAtletica from './assets/siteAtletica.png';
 
 function App() {
   const resume = 'Resume';
   const portifolio = 'Portifólio';
+  const saibaMais = 'Saiba Mais';
 
   return (
     <section className='Body'>
-      <Header />
+      {/* <Header /> */}
       <div className='inicio'>
         <Home />
         <div className='textHome'>
@@ -30,28 +31,19 @@ function App() {
               Software Developer
             </p>
           </p>
-          <div className='button'>
-            <Button text={resume} />
-            <Button text={portifolio} />
-          </div>
+          {/* <div className='button'>
+            <Button text={resume} url="URL_DO_SEU_RESUME" variant="primary" />
+            <Button text={portifolio} url="URL_DO_SEU_PORTIFOLIO" variant="primary" />
+          </div> */}
           <div className='social'>
             <a href="https://www.linkedin.com/in/marcelo-teixeira-574926311/" target="_blank" rel="noopener noreferrer">
-              <img
-                src={linkedin}
-                alt="Icon Linkedin"
-              />
+              <img src={linkedin} alt="Icon Linkedin" />
             </a>
             <a href="https://github.com/Marcelotsfilho" target="_blank" rel="noopener noreferrer">
-              <img
-                src={github}
-                alt="Icon Github"
-              />
+              <img src={github} alt="Icon Github" />
             </a>
             <a href="https://www.instagram.com/marcelotfilho/" target="_blank" rel="noopener noreferrer">
-              <img
-                src={instagram}
-                alt="Icon Instagram"
-              />
+              <img src={instagram} alt="Icon Instagram" />
             </a>
           </div>
         </div>
@@ -80,11 +72,17 @@ function App() {
           <div className='textProject'>
             <p className='nameProject'>Atletica Panterão</p>
             <p className='descriptionProject'>Site informativo multilingual da AAAEE CEFET Leopoldina, desenvolvido através do projeto Campus Aberto - Atlética Panterão.</p>
+            <div className='projectButton'>
+              <Button text={saibaMais} url="https://atletica-panterao-leopoldina.netlify.app/" variant="secondary" />
+              <a href="https://github.com/Marcelotsfilho/site_AAAEE.git" target="_blank" rel="noopener noreferrer">
+                <img src={github} alt="Icon Github" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default App
+export default App;

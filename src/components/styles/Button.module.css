@@ -1,13 +1,26 @@
-.Button{
+.primary{
   width: 150px;
   height: 50px;
   font-size: 16px;
-  border-radius: 30px;
+  border-radius: 30px;  
   background-color: black;
   color: white;
   cursor: pointer;
 }
-.Button:hover{
+.primary:hover{
+  color: black;
+  background-color: white;
+}
+.secondary{
+  width: 80px;
+  height: 35px;
+  font-size: 12px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.secondary:hover{
   color: black;
   background-color: white;
 }
